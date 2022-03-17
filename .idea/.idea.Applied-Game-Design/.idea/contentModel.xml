@@ -168,10 +168,27 @@
             </e>
           </e>
         </e>
+        <e p="Mega Fantasy Props Pack" t="Include">
+          <e p="README.txt" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="HeaderFont" t="Include">
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="BasicInkExample.cs" t="Include" />
           <e p="Editor" t="Include">
             <e p="BasicInkExampleEditor.cs" t="Include" />
+          </e>
+          <e p="Game" t="Include">
+            <e p="BookOverlay.cs" t="Include" />
+            <e p="BookPageController.cs" t="Include" />
+            <e p="GameManager.cs" t="Include" />
+            <e p="Interactable.cs" t="Include" />
+            <e p="Overlay.cs" t="Include" />
           </e>
           <e p="npcScriptableObject.cs" t="Include" />
         </e>

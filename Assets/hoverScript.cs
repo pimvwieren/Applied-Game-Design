@@ -8,6 +8,9 @@ public class hoverScript : MonoBehaviour
     public Animator cameraAnimator;
     private Camera camera;
     private Animator hoverAnimator;
+
+    private string currentlyFocusedObjectName;
+    
     private void Start()
     {
         camera = Camera.main;
@@ -26,14 +29,26 @@ public class hoverScript : MonoBehaviour
 
             if (Input.GetMouseButtonUp(0))
             {
-
-                cameraAnimator.SetTrigger(hit.transform.gameObject.name);
+                if (hit.transform.gameObject.name == currentlyFocusedObjectName)
+                {
+                    Interactable ix = hit.transform.gameObject.GetComponent<Interactable>();
+                    if (ix)
+                    {
+                        ix.OnInteractEvent.Invoke();
+                    }
+                }
+                else
+                {
+                    currentlyFocusedObjectName = hit.transform.gameObject.name;
+                    cameraAnimator.SetTrigger(currentlyFocusedObjectName);
+                }
             }
         }
         else
         {
             if (hoverAnimator)
             {
+                currentlyFocusedObjectName = "";
                 hoverAnimator.SetBool("isSelected", false);
             }
         }
