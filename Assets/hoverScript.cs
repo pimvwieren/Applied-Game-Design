@@ -32,7 +32,10 @@ public class hoverScript : MonoBehaviour
         }
         else
         {
-            hoverAnimator.SetBool("isSelected", false);
+            if (hoverAnimator)
+            {
+                hoverAnimator.SetBool("isSelected", false);
+            }
         }
     }
 
