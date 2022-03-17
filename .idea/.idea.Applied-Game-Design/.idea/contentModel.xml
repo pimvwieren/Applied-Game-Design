@@ -186,9 +186,11 @@
           <e p="Game" t="Include">
             <e p="BookOverlay.cs" t="Include" />
             <e p="BookPageController.cs" t="Include" />
+            <e p="Fruit.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
             <e p="Interactable.cs" t="Include" />
             <e p="Overlay.cs" t="Include" />
+            <e p="TextFieldCheckingButton.cs" t="Include" />
           </e>
           <e p="npcScriptableObject.cs" t="Include" />
         </e>

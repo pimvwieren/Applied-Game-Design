@@ -8,8 +8,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/TextFieldCheckingButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BasicInkExample.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Overlay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Fruit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/npcScriptableObject.cs" root0="FORCE_HIGHLIGHTING" />
@@ -20,11 +22,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Interactable.cs" />
-        <option value="$PROJECT_DIR$/Assets/hoverScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Overlay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/BookOverlay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/BookPageController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/SpellcastButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/TextFieldCheckingButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/hoverScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Interactable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Fruit.cs" />
       </list>
     </option>
   </component>
@@ -61,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647544450418</updated>
-      <workItem from="1647544466283" duration="6765000" />
+      <workItem from="1647544466283" duration="7357000" />
     </task>
     <servers />
   </component>
@@ -103,10 +108,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1647551094702" />
-    <state x="2714" y="235" key="RiderGenerateDialog" timestamp="1647549904238">
+    <state x="2714" y="235" key="RiderGenerateDialog" timestamp="1647555448054">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2714" y="235" key="RiderGenerateDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1647549904238" />
+    <state x="2714" y="235" key="RiderGenerateDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1647555448054" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
