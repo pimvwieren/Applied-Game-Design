@@ -34,7 +34,7 @@ public class hoverScript : MonoBehaviour
                     Interactable ix = hit.transform.gameObject.GetComponent<Interactable>();
                     if (ix)
                     {
-                        ix.OnInteractEvent.Invoke();
+                        ix.OnInteract();
                     }
                 }
                 else
