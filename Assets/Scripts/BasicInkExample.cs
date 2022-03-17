@@ -67,6 +67,11 @@ public class BasicInkExample : MonoBehaviour
                 {
                     
                 });
+        story.BindExternalFunction("zegiets", () =>
+        {
+            GetComponent<Animator>().SetBool("isVisable", false);
+
+        });
 
         RefreshView();
     }
@@ -110,8 +115,7 @@ public class BasicInkExample : MonoBehaviour
             Button choice = CreateChoiceView("Continue");
             choice.onClick.AddListener(delegate
             {
-                story.ChoosePathString("Debug");
-                RefreshView();
+                GetComponent<Animator>().SetBool("isVisable", false);
             });
 
             //Button choice = CreateChoiceView("End of story.\nRestart?");
@@ -139,6 +143,15 @@ public class BasicInkExample : MonoBehaviour
         storyText.GetComponent<TextMeshProUGUI>().text = text;
         
     }
+
+    public void TalkToNPC(string name)
+    {
+        Debug.Log("Talking");
+        GetComponent<Animator>().SetBool("isVisable",true);
+        story.ChoosePathString(name);
+        RefreshView();
+    }
+
 
     IEnumerator TextWriterEffect(string text, GameObject storyText)
     {

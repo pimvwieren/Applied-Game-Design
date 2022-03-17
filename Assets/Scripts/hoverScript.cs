@@ -71,6 +71,7 @@ public class hoverScript : MonoBehaviour
         //ResetAllTriggers();
     }
 
+
     private void ResetAllTriggers()
     {
         foreach (var param in cameraAnimator.parameters)
