@@ -67,10 +67,10 @@ public class BasicInkExample : MonoBehaviour
                 {
                     
                 });
-        story.BindExternalFunction("zegiets", () =>
+        story.BindExternalFunction("zegiets", (string tekst) =>
         {
             GetComponent<Animator>().SetBool("isVisable", false);
-
+            FindObjectOfType<IncantationPanel>().Query(tekst);
         });
 
         RefreshView();

@@ -5,10 +5,10 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UIElements;
 
-public class TextFieldCheckingButton : MonoBehaviour
+public class IncantationPanel : MonoBehaviour
 {
     public TextField textField;
-    public string correctAnswer;
+    private string correctAnswer;
 
     public UnityEvent OnCorrectAnswer;
     public UnityEvent OnIncorrectAnswer;
@@ -23,5 +23,16 @@ public class TextFieldCheckingButton : MonoBehaviour
         {
             OnIncorrectAnswer.Invoke();
         }
+    }
+    
+    public void Query(string answer)
+    {
+        correctAnswer = answer;
+        gameObject.SetActive(true);
+    }
+
+    public void Hide()
+    {
+        gameObject.SetActive(false);
     }
 }

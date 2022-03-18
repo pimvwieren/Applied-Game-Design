@@ -9,15 +9,19 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/TextFieldCheckingButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/PlayerHand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BasicInkExample.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/npcScriptableObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/IncantationPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/BookOverlay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Overlay.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Fruit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Ingredient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/CauldronItemSlot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/npcScriptableObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/hoverScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Cauldron.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/BookPageController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/BookOverlay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/IncludedFile.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -26,10 +30,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/BookOverlay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/BookPageController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/SpellcastButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/TextFieldCheckingButton.cs" />
         <option value="$PROJECT_DIR$/Assets/hoverScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Interactable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/PlayerHand.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Fruit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Ingredient.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ItemSlot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Cauldron.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/TextFieldCheckingButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/IncantationPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BasicInkExample.cs" />
       </list>
     </option>
   </component>
@@ -66,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647544450418</updated>
-      <workItem from="1647544466283" duration="7357000" />
+      <workItem from="1647544466283" duration="11119000" />
     </task>
     <servers />
   </component>
@@ -112,6 +122,14 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2714" y="235" key="RiderGenerateDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1647555448054" />
+    <state x="2547" y="252" width="666" height="536" key="find.popup" timestamp="1647559332519">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2547" y="252" width="666" height="536" key="find.popup/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1647559332519" />
+    <state x="2536" y="240" width="672" height="677" key="run.anything.popup" timestamp="1647557536372">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2536" y="240" width="672" height="677" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1647557536372" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
