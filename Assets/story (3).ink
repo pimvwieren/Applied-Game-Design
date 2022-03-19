@@ -11,8 +11,11 @@ EXTERNAL completeQuest(questId)
 //Fallback function for test inside inky
 === function completeQuest(questId) ===
 ~return questId
-EXTERNAL zegiets(tekst)
-=== function zegiets(tekst) ===
+EXTERNAL zegiets(inputQueryId)
+=== function zegiets(inputQueryId) ===
+~return zegiets
+EXTERNAL TakeIngredient(ingredientId)
+=== function TakeIngredient(ingredientId) ===
 ~return zegiets
 === Debug ===
 Praat met:
@@ -87,12 +90,18 @@ Hallo ik ben de <s><b><color="red">biet</s></color> <b>BIET</b>
     Nouja zeg
     -> DONE
     + [Zeg iets anders]
-    ~ zegiets("Ad hominem")
+    ~ zegiets(0)
     -> DONE
 = leugenaar
 Ja een leugenaar ja, geloof je me niet?
     * [Nee]
     Jammer.
+        ** [Ga jij maar even met mij mee]
+        O-OwO... w-wat ga je met me doen?!
+        ~ TakeIngredient(1)
+        -> DONE
+        ** [Oké]
+            -> DONE
     -> DONE
     * [Ja]
     Goedzo!

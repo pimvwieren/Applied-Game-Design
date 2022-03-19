@@ -1,20 +1,39 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Security.Cryptography;
 using UnityEngine;
 
 public class PlayerHand : MonoBehaviour
 {
-    public GameObject carriedItem;
+    public RegisteredItem[] registeredItems;
+    public CarriedItem currentlyHeldItem;
 
-    public void CloneAndCarryItem(GameObject obj)
+    public void CloneAndCarryItem(int ingredientId)
     {
-        if (carriedItem)
+        if (currentlyHeldItem)
         {
-            Destroy(carriedItem.gameObject);
+            currentlyHeldItem.PutBack();
         }
         
-        carriedItem = Instantiate(obj, transform.position, Quaternion.identity);
-        carriedItem.transform.SetParent(transform);
+        CarriedItem item = FindObjectsOfType<CarriedItem>().First(i => i.uid == ingredientId);
+
+        if (item)
+        {
+            currentlyHeldItem = item;
+            item.PickUp(this);
+        }
+        else
+        {
+            Debug.LogWarning("No registered item found with id [" + ingredientId + "]");
+        }
     }
+}
+
+[Serializable]
+public class RegisteredItem
+{
+    public int id;
+    public CarriedItem prefab;
 }

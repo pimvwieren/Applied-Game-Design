@@ -1,14 +1,13 @@
-﻿using UnityEngine;
+﻿using UnityEditor;
+using UnityEngine;
 
 public class CauldronItemSlot : MonoBehaviour
 {
-    public Ingredient ingredient;
+    public CarriedItem ingredient;
 
-    public void AssignTo(Ingredient newIngredient)
+    public void AssignTo(CarriedItem item)
     {
-        ingredient = newIngredient;
-        ingredient.transform.SetParent(transform);
-        ingredient.currentState = Ingredient.State.InCauldron;
+        ingredient = item;
     }
 
     public void Clear()

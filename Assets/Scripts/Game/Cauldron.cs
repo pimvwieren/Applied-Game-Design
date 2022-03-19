@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class Cauldron : Interactable
 {
-    private CauldronItemSlot[] itemSlots;
+    [HideInInspector] public CauldronItemSlot[] itemSlots;
 
     private void Awake()
     {
@@ -15,19 +15,12 @@ public class Cauldron : Interactable
 
     public void AddHeldIngredient()
     {
-        GameObject carriedItem = FindObjectOfType<PlayerHand>().carriedItem;
+        PlayerHand playerHand = FindObjectOfType<PlayerHand>();
+        CarriedItem carriedItem = playerHand.currentlyHeldItem;
+        
         if (!carriedItem) return;
-        Ingredient ingredient = carriedItem.GetComponent<Ingredient>();
-        if (!ingredient) return;
 
-        CauldronItemSlot cauldronItemSlot = itemSlots.First(slot => slot.ingredient == null);
-        cauldronItemSlot.AssignTo(ingredient);
-    }
-
-    public void AddIngredient(Ingredient ingredient)
-    {
-        CauldronItemSlot cauldronItemSlot = itemSlots.First(slot => slot.ingredient == null);
-        cauldronItemSlot.AssignTo(ingredient);
+        carriedItem.PutInCauldron(this);
     }
 
     public void RemoveIngredient(Ingredient ingredient)

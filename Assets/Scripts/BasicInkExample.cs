@@ -67,11 +67,15 @@ public class BasicInkExample : MonoBehaviour
                 {
                     
                 });
-        story.BindExternalFunction("zegiets", (string tekst) =>
+        story.BindExternalFunction("zegiets", (int inputQueryId) =>
         {
+            FindObjectOfType<InkyResponseManager>().SetActiveInputQuery(story.currentText, inputQueryId);
             GetComponent<Animator>().SetBool("isVisable", false);
-            FindObjectOfType<IncantationPanel>().Query(tekst);
         });
+        story.BindExternalFunction("TakeIngredient", (int ingredientId) =>
+            {
+                FindObjectOfType<PlayerHand>().CloneAndCarryItem(ingredientId);
+            });
 
         RefreshView();
     }

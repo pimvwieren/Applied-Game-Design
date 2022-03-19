@@ -19,7 +19,7 @@ public class Ingredient : Interactable
                 base.OnInteract();
                 break;
             case State.Dormant:
-                FindObjectOfType<PlayerHand>().CloneAndCarryItem(gameObject);
+                // FindObjectOfType<PlayerHand>().CloneAndCarryItem();
                 break;
             case State.InCauldron:
                 FindObjectOfType<Cauldron>().RemoveIngredient(this);
