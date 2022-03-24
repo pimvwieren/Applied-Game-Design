@@ -35,6 +35,10 @@ public class CarriedItem : Interactable
         {
             PickUp(FindObjectOfType<PlayerHand>());
         }
+        else if (HasState(State.Carried))
+        {
+            PutBack();
+        }
         else
         {
             base.OnInteract();            
@@ -68,5 +72,6 @@ public class CarriedItem : Interactable
         SetState(State.InCauldron);
         
         slot.AssignTo(this);
+        FindObjectOfType<PlayerHand>().Clear();
     }
 }

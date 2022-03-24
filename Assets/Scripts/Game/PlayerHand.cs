@@ -29,6 +29,11 @@ public class PlayerHand : MonoBehaviour
             Debug.LogWarning("No registered item found with id [" + ingredientId + "]");
         }
     }
+
+    public void Clear()
+    {
+        currentlyHeldItem = null;
+    }
 }
 
 [Serializable]

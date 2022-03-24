@@ -150,7 +150,6 @@ public class BasicInkExample : MonoBehaviour
 
     public void TalkToNPC(string name)
     {
-        Debug.Log("Talking");
         GetComponent<Animator>().SetBool("isVisable",true);
         story.ChoosePathString(name);
         RefreshView();

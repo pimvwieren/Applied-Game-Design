@@ -6041,7 +6041,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!114 &1663196698
 MonoBehaviour:
@@ -8637,7 +8637,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28c1b762721ab644ea668d13003e4f83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inkyResponseManager: {fileID: 0}
 --- !u!114 &2129954553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8765,7 +8764,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!95 &919132147505323526
 Animator:
