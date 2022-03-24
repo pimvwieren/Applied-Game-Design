@@ -30,7 +30,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Overlay.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/BookOverlay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/BookPageController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/SpellcastButton.cs" />
         <option value="$PROJECT_DIR$/Assets/hoverScript.cs" />
@@ -48,6 +47,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/BasicInkExample.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/PlayerHand.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/CarriedItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/BookOverlay.cs" />
       </list>
     </option>
   </component>
@@ -87,7 +87,7 @@
       <workItem from="1647544466283" duration="11985000" />
       <workItem from="1647595953265" duration="1199000" />
       <workItem from="1647690097995" duration="7776000" />
-      <workItem from="1648137372924" duration="1536000" />
+      <workItem from="1648137372924" duration="2465000" />
     </task>
     <servers />
   </component>

@@ -12,9 +12,4 @@ public class BookOverlay : Overlay
         base.Awake();
         bookPageController = GetComponentInChildren<BookPageController>();
     }
-    
-    public override void ShowOverlay()
-    {
-        base.ShowOverlay();
-    }
 }
