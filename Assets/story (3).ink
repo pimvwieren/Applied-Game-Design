@@ -1,4 +1,4 @@
--> Prei
+-> Debug
 EXTERNAL isTalking(npcName)
 //Fallback function for test inside inky
 === function isTalking(npcName) ===
