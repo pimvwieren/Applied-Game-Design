@@ -49,6 +49,9 @@ EXTERNAL TakeIngredient(ingredientId)
 ***[Continue]
 Clippy proceeds to rant on about irrelevant things...
 -> DONE
++ [Say something...]
+~ zegiets(1)
+-> DONE
 
 === Banana ===
 
@@ -60,7 +63,11 @@ Clippy proceeds to rant on about irrelevant things...
 }
 
 = eerstekeer
-“That Crystal is such a cockroach. I heard he likes to sucks up to everyone and supports the destruction of our beautiful city. ” 
+“That Crystal is such a cockroach. I heard he likes to sucks up to everyone and supports the destruction of our beautiful city. ”
+*[Continue]
+-> DONE
++ [Say something...]
+~ zegiets(0)
 -> DONE
 
 === Herbs ===
@@ -74,6 +81,10 @@ Clippy proceeds to rant on about irrelevant things...
 
 = eerstekeer
 “Hello mister, isn't living just neat? I love to be alive.”
+*[Continue]
+-> DONE
++ [Say something...]
+~ zegiets(0)
 -> DONE
 
 === Crystal ===
@@ -87,6 +98,10 @@ Clippy proceeds to rant on about irrelevant things...
 
 = eerstekeer
 “Wow – your skin is radiant. You're beautiful, you're fierce, you're the moment.”
+*[Continue]
+-> DONE
++ [Say something...]
+~ zegiets(0)
 -> DONE
 
 === Courgette ===
@@ -100,6 +115,10 @@ Clippy proceeds to rant on about irrelevant things...
 
 = eerstekeer
  “Based on scientific evidence, it is more organic and sustainable to use Herbs in your potion than something like me. It's not only more natural but a large demographic approves of this choice.” 
+*[Continue]
+-> DONE
++ [Say something...]
+~ zegiets(2)
 -> DONE
 = tweedekeer
 Ik heb al met je gepraat sukkel

@@ -58,7 +58,7 @@ public class InkyResponseManager : MonoBehaviour
     private void TriggerResponse(ResponseResult responseResult)
     {
         // TODO: Pim hier moet jij nog even de juiste inky methode aanroepen
-        basicInkExample.TalkToNPC(responseResult.inkyDialogId);
+        // basicInkExample.TalkToNPC(responseResult.inkyDialogId);
         
         responseResult.OnResponseEvents.Invoke();
     }

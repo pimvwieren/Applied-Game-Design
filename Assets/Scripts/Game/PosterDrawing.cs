@@ -7,19 +7,26 @@ using UnityEngine.UI;
 public class PosterDrawing : MonoBehaviour
 {
     public Sprite[] spriteVariants;
+    public int currentSpriteIndex;
     public Image imageToDrawOn;
     
-    private int currentSpriteIndex;
+    private Image buttonImage;
+
+    private void Awake()
+    {
+        buttonImage = GetComponent<Image>();
+    }
 
     private void Start()
     {
-        SetSprite(0);
+        SetSprite(currentSpriteIndex);
     }
 
     private void SetSprite(int i)
     {
         currentSpriteIndex = i;
         imageToDrawOn.sprite = spriteVariants[currentSpriteIndex];
+        buttonImage.sprite = spriteVariants[currentSpriteIndex];
     }
 
     public void ToggleSprites()

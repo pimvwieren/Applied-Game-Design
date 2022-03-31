@@ -192,12 +192,14 @@
             <e p="InkyResponseManager.cs" t="Include" />
             <e p="InputFieldPanel.cs" t="Include" />
             <e p="Interactable.cs" t="Include" />
+            <e p="MirrorManager.cs" t="Include" />
             <e p="Overlays" t="Include">
               <e p="BookOverlay.cs" t="Include" />
               <e p="Overlay.cs" t="Include" />
             </e>
             <e p="PlayerHand.cs" t="Include" />
             <e p="PosterDrawing.cs" t="Include" />
+            <e p="SceneSwitcher.cs" t="Include" />
           </e>
           <e p="hoverScript.cs" t="Include" />
           <e p="npcScriptableObject.cs" t="Include" />

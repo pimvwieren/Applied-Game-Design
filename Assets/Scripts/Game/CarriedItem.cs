@@ -62,6 +62,8 @@ public class CarriedItem : Interactable
         transform.SetParent(playerHand.transform, false);
         transform.localPosition = Vector3.zero;
         SetState(State.Carried);
+
+        playerHand.currentlyHeldItem = this;
     }
 
     public void PutInCauldron(Cauldron cauldron)
